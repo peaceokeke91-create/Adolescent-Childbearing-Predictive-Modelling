@@ -33,14 +33,16 @@ Usage:
    
    git clone https://github.com/peaceokeke91-create/Adolescent-Childbearing-Predictive-Modelling.git
    
-2. Install dependencies:
+2. Install the required dependencies:
+   ```bash
    
    pip install -r requirements.txt
+      ```
    
 3. Obtain the NDHS data file from the DHS Program (see above)
 4. Open the Jupyter notebook:
    
-   jupyter notebook "ADOLESCENT PREDICTIVE MODELLING(2).ipynb"
+jupyter notebook "ADOLESCENT PREDICTIVE MODELLING(2).ipynb"
    
 5. Update the data_path variable in Cell (2) to point to your NDHS .dta file
 6. Run all cells to reproduce the analysis
